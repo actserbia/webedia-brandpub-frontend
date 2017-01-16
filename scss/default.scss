@@ -7,7 +7,7 @@
 @import 'config/variables';
 
 //------MIXINS
-// @import 'mixins/breakpoints';
+@import 'mixins/breakpoints';
 // @import 'mixins/borderRadius';
 // @import 'mixins/transition';
 // @import 'mixins/transform';
@@ -26,8 +26,3 @@
 //------BLOCKS
 @import 'blocks/header/header';
 @import 'blocks/footer/footer';
-
-//------PAGES
-@import 'pages/404Page';
-@import 'pages/article/ArticlePage';
-@import 'pages/StaticPage';
